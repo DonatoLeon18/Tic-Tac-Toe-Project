@@ -9,7 +9,7 @@ TicTacToe::TicTacToe(int boardSize) : size(boardSize), currentPlayer('X') {
     for (int i = 0; i < size; i++) {
         board[i] = new char[size];
         for (int j = 0; j < size; j++) {
-            board[i][j] = ' ';
+            board[i][j] = '-';
         }
     }
 }
